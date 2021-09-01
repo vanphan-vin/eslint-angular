@@ -57,9 +57,7 @@ module.exports = {
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
         'class-methods-use-this': 'off',
-        // Чтобы не ставить пустые строки между переменными в классе
         'lines-between-class-members': 'off',
-        // Чтобы можно было использовать Validators.required
         '@typescript-eslint/unbound-method': [
           'error',
           {
